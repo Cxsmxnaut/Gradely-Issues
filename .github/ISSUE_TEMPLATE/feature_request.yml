@@ -1,0 +1,20 @@
+name: ✨ Feature Request
+description: Suggest a new feature, improvement, or change
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    attributes:
+      label: What would you like to see?
+      description: Describe the feature and why it's useful.
+      placeholder: "Add CSV export for grades so I can import to college apps."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: How should it work?
+      placeholder: "Button in gradebook → downloads CSV with courses, assignments, scores."
+  - type: textarea
+    attributes:
+      label: Additional context / examples
+      placeholder: "Similar to how PowerSchool exports work, or mockup if you have one."
