@@ -11,7 +11,6 @@ for **Gradely** — the advanced StudentVUE® grade calculator.
 
 ### Important Links
 - Live app → https://student-gradely.vercel.app
-- Main code repo → [Cxsmxnaut/Gradely](https://github.com/Cxsmxnaut/Gradely)
 
 ### How to Use This Repo
 1. Search existing issues first (avoid duplicates).
