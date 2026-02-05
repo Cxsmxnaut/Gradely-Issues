@@ -1,0 +1,33 @@
+name: 🐛 Bug Report
+description: Something isn't working (grade calc wrong, login fails, chart glitch, etc.)
+title: "[Bug]: "
+labels: [bug, triage]
+body:
+  - type: textarea
+    attributes:
+      label: What happened?
+      description: Describe the bug clearly.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      placeholder: |
+        1. Log in
+        2. Go to gradebook
+        3. Add assignment with 0%
+        4. See error...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected vs Actual
+      placeholder: Expected: Grade drops to X%. Actual: Stays at 100%.
+  - type: input
+    attributes:
+      label: Environment
+      placeholder: Browser: Chrome 128, OS: macOS, Site: student-gradely.vercel.app
+  - type: textarea
+    attributes:
+      label: Screenshots / Console Logs
+      description: Attach images or paste console errors.
